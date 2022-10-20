@@ -2,10 +2,35 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css"/>
-    <title>My Personal Website</title>
+    <title>Turco | Interesting Articles</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>Interesting Articles in Science & Technology</h1>
+
+    <div class="addLink">
+      <h2>Add a Link</h2>
+      <label for="article">Article Title: </label>
+      <input class="articleTitle" type="text" id="article" name="article" size="100" maxlength="200">
+      <br><br>
+      <label for="link">Link: </label>
+      <input class="linkField" type="text" id="link" name="link" size="100" maxlength="200">
+      <br><br>
+      <input class="linkButton" type="submit" value="Submit">
+    </div>
+
+    <!-- <div class="addLink">
+      <h2>Add a Link</h2>
+      <textarea class="linkField"></textarea>
+      <button class="linkButton">Add Link</button>
+    </div> -->
+
+    <div class="contentContainer">
+      <h2 class="article"><a href="https://arstechnica.com/cars/2022/10/toyota-was-a-hybrid-pioneer-with-the-prius-but-struggles-to-leap-to-electric">Toyota was a hybrid pioneer with the Prius but struggles to leap to electric | Ars Technica</a></h2>
+      <h2 class="article"><a href="https://www.theverge.com/23409716/signal-encryption-messaging-sms-meredith-whittaker-imessage-whatsapp-china">Why Signal won’t compromise on encryption, with president Meredith Whittaker | The Verge</a></h2>
+      <h2 class="article"><a href="https://spreadprivacy.com/duckduckgo-for-mac-open-beta">The wait is over: DuckDuckGo for Mac beta now open to the public! | Spread Privacy</a></h2>
+      <h2 class="article"><a href="https://www.nasa.gov/aeroresearch/nasa-solid-state-battery-research-exceeds-initial-goals-draws-interest">NASA’s Solid-State Battery Research Exceeds Initial Goals, Draws Interest | NASA</a></h2>
+      <h2 class="article"><a href="https://www.austinmann.com/trek/iphone-14-pro-camera-review-scotland">iPhone 14 Pro Camera Review: Scotland | Austin Mann</a></h2>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,38 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addLink {
+  width: 50rem;
+}
+
+h1 {
+  width: 50rem;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article {
+  width: 50rem;
+  
+}
+
+a {
+  color: #0d95ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #70C0FF;
+  text-decoration: underline;
+}
